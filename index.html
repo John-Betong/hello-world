@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en-GB">
 <head>
-<title> John_Betong's ToDo List | Thanks to Paul O'Brien, SitePoint.com  </title>
+<title> John_Betong's Application Switcher </title>
 <meta name=viewport content="width=device-width, initial-scale=1">
+
 <style> 
 /* 
   WRITEPATH css/style_spirals.css
@@ -78,9 +79,9 @@ body {
   background:linear-gradient(to left, #29bdcc 0%, white 100%);
   z-index: -1; animation:shimmer 10s infinite forwards;}
 @keyframes shimmer{
-	0%  {width: 0;}
-	5%  {width: 250px;}
-	100%{width: 250px;}
+  0%  {width: 0;}
+  5%  {width: 250px;}
+  100%{width: 250px;}
 }
 .circle1:after,
 .circle8:after {
@@ -170,7 +171,6 @@ body {
 .ftr {position:fixed; bottom: 0; left: 0; width: 100%;}.home {position:fixed; top:4px; left:4px; margin:0; padding:0;}
 
 .bge  {background-color:#eee; color:#000;}
-.clb  {clear:both;}
 .ftr  {position:fixed; bottom: 0; left:0; width:100%;}
 /*
   ftr tac bge lh2 hg2
@@ -180,22 +180,27 @@ body {
 .lh2  {line-height:2em;}
 .ooo  {margin:0; padding:0;} 
 .tac  {text-align:center;}
-
+a       {
+  border:outset 1px transparent; 
+  padding: 0.42em 0.88em;
+}
+a:hover {
+  background-color: #9ff; color: #000; 
+  border: outset 1px #00a;
+}
 div {outline:solid 0px red;}
 </style>
 </head>
 <body>
 
-  <h4 class="fll ooo"> John_Betong's ToDo list </h4>
-  <h1 class="clb tac ooo"> Application: Coothead </h1>
-  <h5 class="tac ooo"> CodeIgniter CI4-Dev </h5>
+  <h1 class="clb tac"> CodeIgniter4-Dev's Application Folder </h1>
+  <h4 class="tac ooo"> Validation Modifications </h4>
 
-  <div> no errors! </div>
-    <div class="dropdown flr p42">
-    <a href="/?app=0">
-      Application Menu 
-    </a>
-  </div>  
+  <div> 
+    no errors! 
+    <b class="flr"> production </b>
+  </div>
+  
   <hr>
   <p> <br> </p>
 
@@ -207,7 +212,7 @@ div {outline:solid 0px red;}
       <h2><span><b>  </b> <i> Done </i></span></h2>
     </div>
     <div class="content">
-      <h3> Common  &#x2714; </h3>
+      <h3> <a href="https://johns-jokes.cf/v_blurb?app=7"> Blurb  &#10004; </a> </h3>
       <p>  AmpProject, Top Menu, SVG Diagaonal, Footer, Views </p>
     </div>
   </div>
@@ -217,8 +222,8 @@ div {outline:solid 0px red;}
       <h2><span><b></b> <i>Done</i></span></h2>
     </div>
     <div class="content">
-      <h3> <a href="/home?app=2"> Home  &#10004; </a> </h3>
-      <p>  AmpProject, Home Page with Top Menu, SVG Diagaonal, Sub Menus, Content, Footer  </p>
+      <h3> <a href="https://johns-jokes.cf/welcome?app=7"> Original welcome-message  &#10004;</a> </h3>
+      <p>  Blogs, Links to every blog </p>
     </div>
   </div>
   <div class="col col2"></div>
@@ -226,11 +231,11 @@ div {outline:solid 0px red;}
 
   <div class="col col2">
     <div class="circle circle3">
-      <h2><span><b></b> <i>Done</i></span></h2>
+      <h2><span><b></b> <i>ToDo</i></span></h2>
     </div>
     <div class="content">
-      <h3> <a href="/pictures?app=2"> Pictures  &#10004;</a> </h3>
-      <p>  Pictures, NO AmpProject included files </p>
+      <h3> <a href="https://johns-jokes.cf/v_welcome_message?app=7"> Valid welcome_message &#x2714;</a> </h3>
+      <p>  Pagination! Display each novel with links to pages. </p>
     </div>
   </div>
 
@@ -239,8 +244,8 @@ div {outline:solid 0px red;}
       <h2><span><b></b> <i>Done</i></span></h2>
     </div>
     <div class="content">
-      <h3> <a href="/amp?app=2"> Pictures using AmpProject &#x2714;</a> </h3>
-      <p>  Pictures using AmpProject include files. </p>
+      <h3> <a href="https://johns-jokes.cf/v_mods?app-7">  Modification Details &#10004;</a> </h3>
+      <p>  Validate Uploads to server. Check Error Log </p>
     </div>
   </div>
   <div class="col col2"></div>
@@ -248,21 +253,21 @@ div {outline:solid 0px red;}
   
   <div class="col col2">
     <div class="circle circle5">
-      <h2><span><b></b> <i>Done</i></span></h2>
+      <h2><span><b></b> <i>ToDo</i></span></h2>
     </div>
     <div class="content">
-      <h3> <a href="/lombardy160?app=2"> Lombard160 &#x2714;</a> </h3>
-      <p>  Lombardy160 web-pages. </p>
+      <h3> <a href="https://johns-jokes.cf/v_github?app=7 "> GitHub Update Changes </a> </h3>
+      <p>  Validate Uploads to server. Check Error Log </p>
     </div>
   </div>
   
   <div class="col col1">
     <div class="circle circle6">
-      <h2><span><b></b> <i>Todo</i></span></h2>
+      <h2><span><b></b> <i>ToDo</i></span></h2>
     </div>
     <div class="content">
-      <h3> <a href="https://johns-jokes.cf?app=2"> Upload to Server  &#10004;</a> </h3>
-      <p>  Validate Uploads to server. Check Error Log </p>
+      <h3> Google Stuff </h3>
+      <p>  Analytics, Analysis, Adsense </p>
     </div>
   </div>
   <div class="col col2"></div>
@@ -273,8 +278,8 @@ div {outline:solid 0px red;}
       <h2><span><b></b> <i>ToDo</i></span></h2>
     </div>
     <div class="content">
-      <h3> Google Stuff </h3>
-      <p>  Analytics, Analysis, Adsense </p>
+      <h3> Optimisation </h3>
+      <p>  Especially images. Also Cache PHP files to HTML and modify htaccess to bypass PHP and MySql </p>
     </div>
   </div>
   
@@ -283,8 +288,8 @@ div {outline:solid 0px red;}
       <h2><span><b></b> <i>ToDo</i></span></h2>
     </div>
     <div class="content">
-      <h3> Optimisation </h3>
-      <p>  Especially images. Also Cache PHP files to HTML and modify htaccess to bypass PHP and MySql </p>
+      <h3> Promotion </h3>
+      <p>  Let everyone know including the cat, dog and canary! </p>
     </div>
   </div>
   <div class="col col2"></div>
